@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageViewDiceLeft: UIImageView!
     @IBOutlet weak var imageViewDiceRight: UIImageView!
+    @IBOutlet weak var totalValueDicesLabel: UILabel!
     
     var randomDiceIndexLeft: Int
     var randomDiceIndexRight: Int
@@ -70,6 +71,8 @@ class ViewController: UIViewController {
             
             self.imageViewDiceLeft.image = UIImage( named: self.diceImages[self.randomDiceIndexLeft] )
             self.imageViewDiceRight.image = UIImage( named: self.diceImages[self.randomDiceIndexRight] )
+        
+            self.totalValueDicesLabel.text = "Tienes " + String( (self.randomDiceIndexLeft+1) + (self.randomDiceIndexRight+1) )
         }
     }
     

@@ -48,6 +48,12 @@
                                     <action selector="rollPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5mt-F3-7HH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fw-1f-2dv">
+                                <rect key="frame" x="156.33333333333334" y="262" width="101.33333333333334" height="35.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="35"/>
+                                <color key="textColor" red="0.43137254901960786" green="0.45490196078431372" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -55,16 +61,19 @@
                             <constraint firstItem="57A-IU-5fP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Oe-dY-2wG"/>
                             <constraint firstItem="57A-IU-5fP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="AgK-05-pUL"/>
                             <constraint firstItem="57A-IU-5fP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ifb-l8-cam"/>
+                            <constraint firstItem="0fw-1f-2dv" firstAttribute="top" secondItem="57A-IU-5fP" secondAttribute="bottom" constant="70" id="JiP-B6-bJC"/>
                             <constraint firstItem="NfT-JQ-wiN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TCl-vM-Mmn"/>
                             <constraint firstItem="Pdd-yB-ThI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y4u-vP-UHV"/>
                             <constraint firstItem="NfT-JQ-wiN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YDx-yn-k5C"/>
                             <constraint firstItem="57A-IU-5fP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="nAK-w8-sTc"/>
+                            <constraint firstItem="0fw-1f-2dv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x4k-dY-eix"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="imageViewDiceLeft" destination="2md-vC-WHd" id="a2r-k7-Fmx"/>
                         <outlet property="imageViewDiceRight" destination="AlJ-zL-wpL" id="9kt-15-8Vs"/>
+                        <outlet property="totalValueDicesLabel" destination="0fw-1f-2dv" id="2yP-NY-MgK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

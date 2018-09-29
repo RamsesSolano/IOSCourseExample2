@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "wallpaperCasinoRoyale-1.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "wallpaperCasinoRoyale@2x.jpg",
       "scale" : "2x"
     },
     {
